@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+
     <header>
-   <section class="hero">
     <h1>Full Stack Web Developer</h1>
    <nav>
     <img src="images/logo.png" class="logo"  > 
@@ -23,60 +23,83 @@
         <li><a href="#contact-me">CONTACT ME</a></li>
     </ul>
    </nav>
-   </header>
-<section class="background image">
-    <img src="images/background.jpg" class="background">
+</header>
+<section class="background">
+    <img src="images/background.jpg" id="first-image"/>
 </section>
-<section id="home" class="section">
-    <div class="section-title">
-        <h2>HOME</h2>
-        <p>With you from concept to code.</p>
-    </div>
-</section>
-
-<section id="about-me" class="section">
-    <div class="section-title">
-        <h2>ABOUT ME</h2>
-    </div>
-<p> Hello! I'm Shabnam. Welcome to my Portfolio. Here you will find a summary of my work as a student on my way to becoming a professional Web Developer through my projects and assignments.</p>
-</section>
-<section id="portfolio" class="section">
-    <div class="section-title">
-        <h2> PORTFOLIO</h2>
-        <p>My projects:
-            <img src="images/project1.jpg" class=project1 alt="">
-            <img src="images/project2.jpg" class=project2 alt="">
-            <img src="images/project3.jpg" class=project3 alt="">
-            <img src="images/project4.jpg" class=project4 alt="">
-        </p>
-    </div>
-</section>
-
-<section id="contact-me" class="section">
-    <div class="section-title">
-        <h2>CONTACT ME:</h2>
-        <div class="flex-row">
-            <div class="phone">
-                <a href="tel:123-456-789">CALL ME</a>
+<div class="container">
+<div class="left">
+    <section id="home" class="section">
+        <div class="section-title">
+            <h2>HOME</h2>
+            <p>With you from concept to code.</p>
+        </div>
+    </section>
+    
+    <section id="about-me" class="section">
+        <div class="section-title">
+            <h2>ABOUT ME</h2>
+        </div>
+        <p> Hello! I'm Shabnam. Welcome to my Portfolio. Here you will find a summary of my work as a student on my way to becoming a professional Web Developer through my projects and assignments.</p>
+    </section>
+</div>
+    <section id="portfolio" class="right">
+        <div class="section-title">
+            <h2> PORTFOLIO</h2>
+            <p>My projects:
+            </p>
+            <div id="project-container">
+                <div id="project-main">
+                    <img src="images/project1.jpg" width="500" height="500"alt="">
+                    <p>HORIESON CODE REFACTOR PROJECT</p>
+                </div>
+                <div class="project">
+                    <img src="images/project2.jpg" width="350" height="285"alt="">
+                    <p>COMING SOON</p>
+                </div>
+                <div class="project">
+                    <img src="images/project3.jpg"width="300" height="90" alt="">
+                    <p>COMING SOON</p>
+                </div>
+                <div class="project">
+                    <img src="images/project4.jpg" width="300" height="90"alt="">
+                    <p>COMING SOON</p>
+                </div>
+                <div class="project">
+                    <img src="images/project4.jpg" width="300" height="90"alt="">
+                    <p>COMING SOON</p>
+                </div>
+                
             </div>
-
-            <div class="email">
-                <a href="mailto:shabnamfazly@gmail.com">EMAIL ME</a>
+        </div>
+    </section>
+</div>
+    <section id="contact-me" class="contact-methods">
+        <div class="section-title">
+            <h2>CONTACT ME:</h2>
+            <div class="flex-row">
+                <div class="phone">
+                    <a href="tel:123-456-789">CALL ME</a>
+                </div>
+                
+                <div class="email">
+                    <a href="mailto:shabnamfazly@gmail.com">EMAIL ME</a>
+                </div>
+                
+                <div class="instagram">
+                    <a href="https://www.instagram.com">INSTAGRAM</a>
+                </div>
+                
+                <div class="github">
+                    <a href="https://github.com/Shabnamfazly">GITHUB</a>
+                </div>
+                
             </div>
+        </section>
+    </section>
+    <footer>
+        <h2> Created by Shabnam Fazly ♥️ </h2>
+    </footer>
 
-            <div class="instagram">
-                <a href="https://www.instagram.com">INSTAGRAM</a>
-            </div>
-
-            <div class="github">
-                <a href="https://github.com/Shabnamfazly">GITHUB</a>
-            </div>
-        
-    </div>
-</section>
-</section>
-<footer>
-<h2> Created by Shabnam Fazly</h3>
-</footer>
 </body>
 </html>

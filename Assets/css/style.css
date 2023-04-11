@@ -4,14 +4,19 @@
     padding: 0;
     font-family: sans-serif;
 }
-
-.hero{
+body {
     position: relative;
     width: 100%;
     height: 100vh;
     background: #F2BCD8;
-    
+    display: flex;
+    flex-direction: column;
 }
+
+header{
+display: block;
+}
+
 header h1{
     font-weight: bold;
     margin: 0;
@@ -21,17 +26,66 @@ header h1{
     text-align: center;
     background-color: hotpink;
     
+    
 }
 .background {
-    width: 99%;
-    height: 80%;
-    position: absolute;
-    bottom: 0;
-    border: 5px solid hotpink
+align-items: center;
+justify-content: center;
+padding: 25px;
+
 
 }
-.background a:hover{
+
+#first-image{
+    border: 5px solid hotpink;
+    width: 90%;
+    height: 80%;
+    align:center;
+   
+}
+#project-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.project{
+    width: 25vw;
+    height: auto;
+    border: solid 2px hotpink;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.container{
+    display: flex;
+}
+.left{
+    width: 40%;
+}
+.right{
+    width: 60%;
+}
+project img {
+    width: 200px;
+    height: 200px;
+    border: solid 2px hotpink;
+    }
+
+#project-main{
+    width:80vw;
+    height: 50px;
+    border: solid 2px hotpink;
+
+}
+
+#project-main img{
     
+border: solid 2px hotpink;
+
 }
 
 
@@ -64,13 +118,24 @@ nav ul li a:hover{
     box-shadow: 0 0 10px white;
 
 }
-#home{
+p {
+    color: hotpink;
+    font-weight: bolder;
+}
+.flex-row{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+
 }
 
+
+
 footer {
-    padding: 20px 20px;
+    padding: 29px 25px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -83,6 +148,7 @@ footer h2 {
     color: white;
     font-size: 20px;
     margin: 0;
+    align: center;
     
 }
 
@@ -108,7 +174,7 @@ footer h2 {
         font-size: 20px;
     }
     
-    footer h2, footer div {
+    footer h2 {
         text-align: center;
         width: 100%;
     }
@@ -130,7 +196,7 @@ footer h2 {
       width: 95%;
     }
   
-    .section p {
+    .p {
       width: 100%;
     }
 }
