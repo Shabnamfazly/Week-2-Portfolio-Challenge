@@ -29,18 +29,25 @@ header h1{
     
 }
 .background {
+display: flex;
 align-items: center;
 justify-content: center;
 padding: 25px;
 
 
 }
+h2{
+    color: white;
+}
+.background-image{
+    width: 70rem;
+}
 
 #first-image{
     border: 5px solid hotpink;
-    width: 90%;
-    height: 80%;
-    align:center;
+    width: 100%;
+    
+
    
 }
 #project-container{
@@ -49,16 +56,19 @@ padding: 25px;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 .project{
-    width: 25vw;
-    height: auto;
+    width: 20rem;
     border: solid 2px hotpink;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+}
+.project-image{
+    width: 100%;
+
 }
 .container{
     display: flex;
@@ -70,22 +80,28 @@ padding: 25px;
     width: 60%;
 }
 project img {
-    width: 200px;
-    height: 200px;
+    
     border: solid 2px hotpink;
     }
 
 #project-main{
-    width:80vw;
-    height: 50px;
+    width:30rem;
     border: solid 2px hotpink;
 
 }
 
 #project-main img{
-    
-border: solid 2px hotpink;
+    width: 100%;
+    border: solid 2px hotpink;
 
+}
+.project-secondary{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 
@@ -118,9 +134,10 @@ nav ul li a:hover{
     box-shadow: 0 0 10px white;
 
 }
-p {
+ p {
     color: hotpink;
     font-weight: bolder;
+    
 }
 .flex-row{
     display: flex;
@@ -148,11 +165,11 @@ footer h2 {
     color: white;
     font-size: 20px;
     margin: 0;
-    align: center;
+    text-align: center;
     
 }
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -183,11 +200,20 @@ footer h2 {
     .section-title {
         width: 20%;
     }
-
+} */
 @media screen and (max-width: 768px) {
-    section {
-      padding: 30px 15px;
+   
+    .container {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+#project-main{
+    width: 50rem;
+
+}
+
 }
   
 
