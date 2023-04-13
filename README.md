@@ -1,6 +1,6 @@
 # Week-2-Portfolio-Challenge
 
-#Description
+# Description
 
 For this challenge I wrote all the HTML and CSS code for my personal portfolio which I will update over time to become my own professional portfolio of projects . I used the knowledge that I gained through the first two weeks of the bootcamp to write the HTML and CSS from scratch as well as my own research. I made sure to follow the grading requirements which was to:
 
@@ -10,8 +10,9 @@ For this challenge I wrote all the HTML and CSS code for my personal portfolio w
 * The first portfolio project apperaing larger than the others.
 * Including a photo and contact infomation.
 
-#Usage
+# Usage
 The web application is simple to use with the navigation bar at the top of the page that will take the user to Home,About Me, Portfolio and finally the contact information when clicked. The portfolio contains the link with a screenshot of the latest project I worked which will take the user to the deployed link. The other four images are placeholder images for future projects.
+I have included screenshots of the application below with the deployed link:
 
 <img src=".\images\Screenshot1.png"/>
 <img src=".\images\Screenshot2.png"/>
