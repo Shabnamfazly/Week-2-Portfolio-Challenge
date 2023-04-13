@@ -13,7 +13,7 @@ For this challenge I wrote all the HTML and CSS code for my personal portfolio w
 #Usage
 The web application is simple to use with the navigation bar at the top of the page that will take the user to Home,About Me, Portfolio and finally the contact information when clicked. The portfolio contains the link with a screenshot of the latest project I worked which will take the user to the deployed link. The other four images are placeholder images for future projects.
 
-<img src=".\assets\images\Screenshot1.png"/>
-<img src=".\assets\images\Screenshot2.png"/>
-<img src=".\assets\images\Screenshot3.png"/>
+<img src=".\images\Screenshot1.png"/>
+<img src=".\images\Screenshot2.png"/>
+<img src=".\images\Screenshot3.png"/>
 
