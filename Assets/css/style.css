@@ -46,10 +46,9 @@ h2{
 #first-image{
     border: 5px solid hotpink;
     width: 100%;
-    
-
-   
+       
 }
+
 #project-container{
     display:flex;
     align-items: center;
@@ -169,38 +168,7 @@ footer h2 {
     
 }
 
-/* @media screen and (max-width: 980px) {
-    header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
-    }
-    
-    header h1 {
-        width: 100%;
-        text-align: center;
-    }
-    
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-    
-    header nav ul li a {
-        font-size: 20px;
-    }
-    
-    footer h2 {
-        text-align: center;
-        width: 100%;
-    }
-   
 
-    .section-title {
-        width: 20%;
-    }
-} */
 @media screen and (max-width: 768px) {
    
     .container {
